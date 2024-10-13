@@ -1,0 +1,253 @@
+/*xs*/
+@media (max-width: 639px){
+    /* nav-bar */
+     .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+     }
+     .nav-items a:hover{
+        color: black;
+        padding-bottom: 0px;
+        border-bottom: var(--second-color) 2px solid;
+    }
+    .nav-items .active{
+        color: black;
+        padding-bottom: 0px;
+        border-bottom: var(--second-color) 2px solid;
+    }
+    /*header*/
+ .header{
+    height: fit-content;
+    padding: 100px 0px;
+}
+.header .container .left-side,.header .container .left-side{
+    width: 100%;
+ }
+.header .container .right-side{
+     width:100%;
+    
+}
+.header .container .right-side img{
+     width:100%;
+    padding-top: 50px;
+}
+.header .container .left-side .butns{
+      display: flex;
+      justify-content: center;
+}
+.header .container{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column-reverse;
+}
+/* Cheffs */
+.chef-item{
+    width: 100%;
+}
+.chefs .container{
+    width: 100%; 
+}
+/* gallary */
+.gallary-item1,.gallary-item2,.gallary-item3{
+    width: 100%;
+}
+/*contact*/
+.contact .container{
+    width: 100%;
+}
+.contact-item{
+    width: 100%;
+}
+.contact-form input{
+    width: 100%;
+}
+/*footer*/
+.footer-item1,.footer-item2,.footer-item3{
+    width: 100%;
+}
+.footer .container{
+    flex-direction: column;
+}
+.quick-links-list2{
+    padding-left: 0px;
+}
+}
+/* s */
+@media (max-width:768px) and (min-width: 640px) {
+     /* nav-bar */
+     .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+     }
+     .nav-items a:hover{
+        color: black;
+        padding-bottom: 0px;
+        border-bottom: var(--second-color) 2px solid;
+    }
+    .nav-items .active{
+        color: black;
+        padding-bottom: 0px;
+        border-bottom: var(--second-color) 2px solid;
+    }
+    .header{
+        height: fit-content;
+        padding: 100px 0px;
+    }
+    .header .container .left-side,.header .container .left-side{
+        width: 100%;
+     }
+    .header .container .right-side{
+         width:100%;
+        
+    }
+    .header .container .right-side img{
+         width:100%;
+        padding-top: 50px;
+    }
+    .header .container .left-side .butns{
+          display: flex;
+          justify-content: center;
+    }
+    .header .container{
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    /* Cheffs */
+    .chef-item{
+        width: 100%;
+    }
+    .chefs .container{
+        width: 100%; 
+    }
+    /* gallary */
+    .gallary-item1,.gallary-item2,.gallary-item3{
+         width: 100%;
+        
+    }
+    /*contact*/
+.contact .container{
+    width: 100%;
+}
+.contact-item{
+    width: 100%;
+}
+.contact-form input{
+    width: 100%;
+} 
+/*footer*/
+.footer-item1,.footer-item2,.footer-item3{
+    width: 100%;
+}
+.footer .container{
+    flex-direction: column;
+}
+.quick-links-list2{
+    padding-left: 0px;
+} 
+}
+/* md */
+@media (max-width:1024px) and (min-width: 769px){
+     /* nav-bar */
+     .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+     }
+     .nav-items a:hover{
+        color: black;
+        padding-bottom: 0px;
+        border-bottom: var(--second-color) 2px solid;
+    }
+    .nav-items .active{
+        color: black;
+        padding-bottom: 0px;
+        border-bottom: var(--second-color) 2px solid;
+    }
+    .header{
+        height: fit-content;
+        padding: 100px 0px;
+    }
+    .header .container .left-side,.header .container .left-side{
+        width: 100%;
+     }
+    .header .container .right-side{
+         width:100%;
+        
+    }
+    .header .container .right-side img{
+         width:100%;
+        padding-top: 50px;
+    }
+    .header .container .left-side .butns{
+          display: flex;
+          justify-content: center;
+    }
+    .header .container{
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    /* Cheffs */
+      .chef-item{
+          width: 50%;
+      }
+      /* gallary */
+    .gallary-item1,.gallary-item2,.gallary-item3{
+         width: 50%;
+     }
+     .contact-form input{
+        width: 100%;
+    }  
+    /*footer*/
+.footer-item1,.footer-item2,.footer-item3{
+    width: 100%;
+}
+.footer .container{
+    flex-direction: column;
+}
+.quick-links-list2{
+    padding-left: 0px;
+}
+}
+/* lg */
+@media (max-width:1280px)and(min-width: 1025px){
+ /* nav-bar */
+ .nav-bar ul{
+    display: flex;
+    flex-direction: column;
+ }
+ .nav-items a:hover{
+    color: black;
+    padding-bottom: 0px;
+    border-bottom: var(--second-color) 2px solid;
+}
+.nav-items .active{
+    color: black;
+    padding-bottom: 0px;
+    border-bottom: var(--second-color) 2px solid;
+}
+.header{
+    padding: 100px 0px;
+}
+.quick-links-list2{
+    padding-left: 0px;
+} 
+
+/* xl */
+@media (max-width:1536px)and(min-width: 1281px){
+   
+}
+
+/* xxl */
+@media (min-width: 1537px){
+    
+}
